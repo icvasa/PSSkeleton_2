@@ -1,0 +1,9 @@
+=> PSSkeleton_2.Features.AirMoldovaDummyTestingFeature.NegativeLogin
+Given user is populating login form with john.doe@email.com and password combination
+-> done: AirMoldovaDummyTestingSteps.UserIsPopulatingLoginForm("john.doe@email.com", "password") (0.7s)
+When user clicks Ok button
+-> done: AirMoldovaDummyTestingSteps.UserClicksButton("Ok") (2.0s)
+Then THE ENTERED COMBINATION OF E-EMAIL AND PASSWORD IS NOT CORRECT, PLEASE TRY AGAIN. USER NOT EXIST WITH THIS VALUES. error message appears
+-> done: AirMoldovaDummyTestingSteps.ErrorMessageAppears("THE ENTERED COMBI...") (1.2s)
+=> PSSkeleton_2.Features.AirMoldovaDummyTestingFeature
+-> Using app.config
